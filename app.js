@@ -5,7 +5,7 @@ const bodyparser = require('body-parser')
 const patientData = require('./model')
 
 // mongoose.connect('mogodb://localhost/users' )
-mongoose.connect("mongodb://@ds135444.mlab.com:35444/pta-mern-stack", {
+mongoose.connect("mongodb://philip:philip123@ds135444.mlab.com:35444/pta-mern-stack", {
     useMongoClient: true
 })
 
