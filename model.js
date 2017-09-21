@@ -12,7 +12,8 @@ var userSchema = new Schema({
     name: String,
     email: String,
     disease: String,
-    age: String
+    age: String,
+    date: String
 })
 
 var patientData = mongoose.model("Patient", userSchema)
